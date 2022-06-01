@@ -1,0 +1,56 @@
+.about-content{
+    margin-left: 50px;
+    height: 100%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+.about-content h1{
+    font-family: Ibarra Real Nova;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+}
+.about-content p{
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+.skills{
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #5FB4A2;
+}
+.small{
+    display: none;
+}
+.wraper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.text{
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+    .about-content{
+        width: 100%;
+        padding: 20px 40px 20px 0px;
+    }
+}

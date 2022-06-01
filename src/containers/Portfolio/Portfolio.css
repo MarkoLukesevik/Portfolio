@@ -1,0 +1,21 @@
+.portfolio {
+  margin: 0 auto;
+  width: 100%;
+}
+.portfolio .about {
+  height: 500px;
+  width: 100%;
+  justify-content: space-between;
+}
+.portfolio .about:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio .about {
+    height: 688px;
+  }
+  .portfolio .about:nth-of-type(even) {
+    flex-direction: column;
+  }
+}
