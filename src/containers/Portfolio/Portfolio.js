@@ -6,7 +6,7 @@ import DoingProject from "../../components/DoingProject/DoingProject";
 
 export default function Portfolio() {
   const renderAllProjects = () => {
-    return portfolioData.reverse().map((project) => {
+    return portfolioData.map((project) => {
       return (
         <About
           key={project.id}
