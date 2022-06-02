@@ -12,11 +12,11 @@
 }
 .project-about .about-content {
   height: auto;
-  padding: 20px 50px;
+  padding: 20px 80px 20px 0px;
   margin-left: 0px;
 }
 .project-background {
-  width: 45%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;

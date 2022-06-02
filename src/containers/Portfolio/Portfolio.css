@@ -5,14 +5,18 @@
   height: 370px;
   width: 100%;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
 }
-.portfolio .about-content {
-  gap: 10px;
-}
+
 .portfolio .about:nth-of-type(even) {
   flex-direction: row-reverse;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .portfolio .about-content {
+    gap: 10px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
