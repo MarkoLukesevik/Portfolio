@@ -115,9 +115,3 @@
     padding-right: 40px;
   }
 }
-
-@media only screen and (min-width: 1300px) {
-  .heroSection {
-    height: 800px;
-  }
-}
