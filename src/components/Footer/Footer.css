@@ -50,6 +50,10 @@
   .footer .list {
     display: flex;
   }
+  .wrap {
+    flex-direction: column;
+    gap: 40px;
+  }
   .footer-content {
     flex-direction: column;
   }
