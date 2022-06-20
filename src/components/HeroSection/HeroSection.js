@@ -18,7 +18,9 @@ export default function HeroSection() {
               <img src={Path2} alt=""></img>
               <img src={Path3} alt=""></img>
             </button>
-            <p>ABOUT ME</p>
+            <a href="/Marko-CV.pdf" download>
+              RESUME
+            </a>
           </div>
         </div>
       </div>
