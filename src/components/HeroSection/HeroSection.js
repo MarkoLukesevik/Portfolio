@@ -1,8 +1,10 @@
 import React from "react";
-import "./HeroSection.css";
+
 import Path1 from "../../images/Path1.svg";
 import Path2 from "../../images/Path2.svg";
 import Path3 from "../../images/Path3.svg";
+
+import "./HeroSection.css";
 
 export default function HeroSection() {
   return (
