@@ -1,7 +1,9 @@
 import React from "react";
+
 import About from "../../components/About/About";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import DoingProject from "../../components/DoingProject/DoingProject";
+
 import "./HomePage.css";
 
 export default function HomePage() {

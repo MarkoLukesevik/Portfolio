@@ -1,8 +1,10 @@
 import React from "react";
-import "./Footer.css";
+
 import FooterLogo from "../../images/FooterLogo.svg";
 import Github from "../../images/Github.svg";
 import LinkList from "../LinkList/LinkList";
+
+import "./Footer.css";
 
 export default function Footer() {
   return (

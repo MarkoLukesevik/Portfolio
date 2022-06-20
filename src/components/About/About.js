@@ -1,5 +1,7 @@
 import React from "react";
+
 import AboutContent from "../AboutContent/AboutContent";
+
 import "./About.css";
 
 export default function About({ img, title, text, btnText, link }) {

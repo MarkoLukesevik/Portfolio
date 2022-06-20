@@ -1,6 +1,8 @@
 import React from "react";
-import "./DoingProject.css";
+
 import Button from "../Button/Button";
+
+import "./DoingProject.css";
 
 export default function DoingProject() {
   return (

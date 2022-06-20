@@ -1,10 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
+
 import Layout from "./layouts/Layout/Layout";
 import HomePage from "./containers/HomePage/HomePage";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
 import Project from "./containers/Project/Project";
+
+import "./App.css";
 
 function App() {
   return (

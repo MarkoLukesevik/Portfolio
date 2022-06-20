@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import "./Contact.css";
+
 import github from "../../images/githubContact.svg";
 import instagram from "../../images/instagramContact.svg";
 import linkedin from "../../images/linkedinContact.svg";
 import emailjs from "emailjs-com";
+
+import "./Contact.css";
 
 export default function Contact() {
   const [thanksMsg, setThanksMsg] = useState(false);

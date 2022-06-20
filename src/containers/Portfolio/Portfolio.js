@@ -1,8 +1,10 @@
 import React from "react";
-import "./Portfolio.css";
+
 import { portfolioData } from "../../components/Utils/PortfolioData";
 import About from "../../components/About/About";
 import DoingProject from "../../components/DoingProject/DoingProject";
+
+import "./Portfolio.css";
 
 export default function Portfolio() {
   const renderAllProjects = () => {

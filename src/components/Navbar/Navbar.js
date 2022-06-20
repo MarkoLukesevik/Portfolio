@@ -1,7 +1,9 @@
 import React from "react";
-import "./Navbar.css";
+
 import logo from "../../images/Logo.svg";
 import LinkList from "../LinkList/LinkList";
+
+import "./Navbar.css";
 
 export default function Navbar() {
   return (

@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./Project.css";
+
 import { portfolioData } from "../../components/Utils/PortfolioData";
 import AboutContent from "../../components/AboutContent/AboutContent";
 import DoingProject from "../../components/DoingProject/DoingProject";
+
+import "./Project.css";
 
 export default function Project() {
   const params = useParams();
