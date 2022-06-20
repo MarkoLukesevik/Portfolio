@@ -10,9 +10,11 @@
   cursor: pointer;
   width: 202px;
 }
+
 .btn:hover {
   background-color: #33323d;
 }
+
 .btn:hover .btn-link {
   color: white;
 }

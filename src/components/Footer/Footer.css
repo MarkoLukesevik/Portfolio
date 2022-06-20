@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .wrap {
   max-width: 1200px;
   width: 80%;
@@ -16,25 +17,30 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
+
 .footer-content .nav-item {
   color: white;
 }
+
 .social-media-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 .instagram {
   width: 28px;
   height: 28px;
 }
+
 .linkedin {
   width: 28px;
   height: 28px;
@@ -47,16 +53,20 @@
     justify-content: center;
     gap: 30px;
   }
+
   .footer .list {
     display: flex;
   }
+
   .wrap {
     flex-direction: column;
     gap: 40px;
   }
+
   .footer-content {
     flex-direction: column;
   }
+
   .footer-content .list {
     flex-direction: column;
   }

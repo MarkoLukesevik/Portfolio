@@ -9,6 +9,7 @@
   border-top: 1px solid rgba(51, 50, 61, 0.15);
   border-bottom: 1px solid rgba(51, 50, 61, 0.15);
 }
+
 .about-content h1 {
   font-family: Ibarra Real Nova;
   font-size: 38px;
@@ -16,6 +17,7 @@
   line-height: 42px;
   letter-spacing: -0.3571428656578064px;
 }
+
 .about-content p {
   font-family: Public Sans;
   font-size: 16px;
@@ -32,9 +34,11 @@
   letter-spacing: 0px;
   color: #5fb4a2;
 }
+
 .small {
   display: none;
 }
+
 .wraper {
   width: 50%;
   height: 100%;
@@ -44,6 +48,7 @@
   justify-content: space-around;
   gap: 20px;
 }
+
 .text {
   width: 50%;
 }

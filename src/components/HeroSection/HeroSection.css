@@ -5,6 +5,7 @@
   background-position: center center;
   position: relative;
 }
+
 .hero-content {
   position: absolute;
   bottom: 0;
@@ -13,6 +14,7 @@
   height: 357px;
   background-color: #f2f2f2;
 }
+
 .hero-content h1 {
   width: 390px;
   height: 100%;
@@ -23,6 +25,7 @@
   line-height: 50px;
   letter-spacing: -0.4464285671710968px;
 }
+
 .button-div {
   height: 48px;
   width: 200px;
@@ -35,6 +38,7 @@
   bottom: 0;
   left: 0;
 }
+
 .button-div:hover {
   background-color: #5fb4a2;
 }
@@ -50,10 +54,12 @@
   width: 48px;
   cursor: pointer;
 }
+
 .button-div:hover .hero-button {
   background-color: #326d61;
   border: none;
 }
+
 .button-div a {
   text-decoration: none;
   color: white;
@@ -63,12 +69,15 @@
   width: 80%;
   height: 100%;
 }
+
 .heroSection-small {
   display: none;
 }
+
 .hero-content-small {
   display: none;
 }
+
 .button-div-small {
   display: none;
 }
@@ -78,6 +87,7 @@
     height: 278px;
     width: 514px;
   }
+
   .hero-content h1 {
     width: 458px;
     font-size: 40px;
@@ -90,6 +100,7 @@
   .heroSection {
     display: none;
   }
+
   .heroSection-small {
     height: 400px;
     display: flex;
@@ -97,6 +108,7 @@
     background-size: cover;
     background-position: center center;
   }
+
   .hero-content-small {
     margin-top: 50px;
     display: flex;
@@ -116,6 +128,7 @@
     text-align: center;
     margin-top: 30px;
   }
+
   .button-div-small p {
     padding-right: 40px;
   }

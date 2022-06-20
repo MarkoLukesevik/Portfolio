@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 30px;
 }
+
 .nav-item {
   font-family: Public Sans;
   font-size: 12px;
@@ -13,9 +14,11 @@
   text-decoration: none;
   color: #33323d;
 }
+
 .mobile-nav {
   display: none;
 }
+
 .menuIcon {
   display: none;
 }
@@ -27,6 +30,7 @@
     right: 5%;
     cursor: pointer;
   }
+
   .list {
     display: none;
   }
@@ -42,6 +46,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .list-small {
     display: flex;
     flex-direction: column;
@@ -49,6 +54,7 @@
     justify-content: center;
     gap: 30px;
   }
+
   .nav-item {
     color: white;
   }

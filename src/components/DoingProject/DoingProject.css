@@ -5,11 +5,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .doing-project span {
   width: 33%;
   height: 1px;
   background-color: rgba(51, 50, 61, 0.15);
 }
+
 .doing-project h1 {
   width: 350px;
   font-family: Ibarra Real Nova;
@@ -19,6 +21,7 @@
   letter-spacing: -0.3571428656578064px;
   color: rgba(51, 50, 61, 1);
 }
+
 .doing-project .btn {
   width: 162px;
 }
@@ -28,18 +31,21 @@
     width: 14%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .doing-project {
     flex-direction: column;
     justify-content: space-around;
     height: 214px;
   }
+
   .doing-project h1 {
     width: 311px;
     height: 200px;
     font-size: 40px;
     text-align: center;
   }
+
   .doing-project span {
     display: none;
   }
