@@ -9,7 +9,7 @@ import "./HeroSection.css";
 export default function HeroSection() {
   return (
     <>
-      <div className="heroSection">
+      <div className="hero-section">
         <div className="hero-content">
           <h1>
             Hey, I’m Marko Lukesevik and I love building beautiful websites
@@ -27,7 +27,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="heroSection-small"></div>
+      <div className="hero-section-small"></div>
       <h1 className="hero-content-small">
         Hey, I’m Marko Lukesevik and I love building beautiful websites
       </h1>
@@ -37,7 +37,9 @@ export default function HeroSection() {
           <img src={Path2} alt=""></img>
           <img src={Path3} alt=""></img>
         </button>
-        <p>ABOUT ME</p>
+        <a href="/Marko-CV.pdf" download>
+          RESUME
+        </a>
       </div>
     </>
   );

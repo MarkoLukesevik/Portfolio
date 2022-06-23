@@ -1,4 +1,4 @@
-.heroSection {
+.hero-section {
   height: 600px;
   background-image: url(../../images/cover.jpg);
   background-size: cover;
@@ -70,7 +70,7 @@
   height: 100%;
 }
 
-.heroSection-small {
+.hero-section-small {
   display: none;
 }
 
@@ -97,11 +97,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .heroSection {
+  .hero-section {
     display: none;
   }
 
-  .heroSection-small {
+  .hero-section-small {
     height: 400px;
     display: flex;
     background-image: url(../../images/cover.jpg);
@@ -129,7 +129,13 @@
     margin-top: 30px;
   }
 
-  .button-div-small p {
-    padding-right: 40px;
+  .button-div-small a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
   }
 }
