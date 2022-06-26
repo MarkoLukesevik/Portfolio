@@ -14,7 +14,7 @@ export default function Portfolio() {
           key={project.id}
           {...project}
           btnText="VIEW PROJECT"
-          link={`/project/${project.id}`}
+          navigateTo={`/project/${project.id}`}
         />
       );
     });

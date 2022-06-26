@@ -9,7 +9,6 @@ import "./Project.css";
 
 export default function Project() {
   const params = useParams();
-  useEffect(() => {}, [params]);
 
   let project = portfolioData.find((project) => project.id == params.id);
 

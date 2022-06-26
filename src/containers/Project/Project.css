@@ -10,16 +10,21 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: 30px;
 }
 
+.project-about {
+  width: 80%;
+}
 .project-about .about-content {
   height: auto;
   padding: 20px 80px 20px 0px;
   margin-left: 0px;
+  width: 100%;
 }
 
 .project-background {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +59,9 @@
     flex-direction: column;
   }
 
+  .project-about {
+    width: 100%;
+  }
   .project-about .about-content {
     display: none;
   }

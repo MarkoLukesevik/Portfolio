@@ -8,7 +8,7 @@ export default function AboutContent({
   title,
   text,
   btnText,
-  link,
+  navigateTo,
   skills1,
   skills2,
   onBtnClick,
@@ -20,7 +20,11 @@ export default function AboutContent({
         <p>{text}</p>
         {skills1 ? <p className="skills">{skills1}</p> : <></>}
         {skills2 ? <p className="skills">{skills2}</p> : <></>}
-        <Button btnText={btnText} link={link} onBtnClick={onBtnClick} />
+        <Button
+          btnText={btnText}
+          navigateTo={navigateTo}
+          onBtnClick={onBtnClick}
+        />
       </div>
 
       <div className="about-content small">
@@ -28,7 +32,11 @@ export default function AboutContent({
           <h1>{title}</h1>
           {skills1 ? <p className="skills">{skills1}</p> : <></>}
           {skills2 ? <p className="skills">{skills2}</p> : <></>}
-          <Button btnText={btnText} link={link} onBtnClick={onBtnClick} />
+          <Button
+            btnText={btnText}
+            navigateTo={navigateTo}
+            onBtnClick={onBtnClick}
+          />
         </div>
         <p className="text">{text}</p>
       </div>

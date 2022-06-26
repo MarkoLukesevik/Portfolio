@@ -9,7 +9,7 @@ export default function DoingProject() {
     <div className="doing-project">
       <h1>Interested in doing a project together?</h1>
       <span></span>
-      <Button btnText={"CONTACT ME"} link={"/contact"} />
+      <Button btnText={"CONTACT ME"} link={"/contact"} navigateTo="/contact" />
     </div>
   );
 }
