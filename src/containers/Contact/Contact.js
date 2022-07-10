@@ -62,7 +62,7 @@ export default function Contact() {
               <img className="instagram" src={instagram} alt=""></img>
             </a>
             <a
-              href="https://www.linkedin.com/in/marko-lukeshevikj-630268214/"
+              href="https://www.linkedin.com/in/marko-lukesevik-630268214/"
               target="_blank"
             >
               <img className="linkedin" src={linkedin} alt=""></img>

@@ -30,7 +30,7 @@ export default function Footer() {
             ></img>
           </a>
           <a
-            href="https://www.linkedin.com/in/marko-lukeshevikj-630268214/"
+            href="https://www.linkedin.com/in/marko-lukesevik-630268214/"
             target="_blank"
           >
             <img
