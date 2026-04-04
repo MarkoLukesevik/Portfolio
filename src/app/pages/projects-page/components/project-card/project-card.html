@@ -1,6 +1,11 @@
 <div class="project-card">
   <div class="project-card__slider">
-    <div class="project-card__slider-container">
+    <div
+      class="project-card__slider-container"
+      (touchstart)="onTouchStart($event)"
+      (touchmove)="onTouchMove($event)"
+      (touchend)="onTouchEnd()"
+    >
       <div
         class="project-card__slider-container__track"
         [style.transform]="'translateX(-' + currentImageIndex * 100 + '%)'"
