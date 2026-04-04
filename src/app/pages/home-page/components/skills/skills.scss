@@ -1,0 +1,37 @@
+.skills {
+  background-color: var(--color-card);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+
+  &-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  &-content {
+    padding: 4rem 1.5rem;
+
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    &__grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+
+      &-tag {
+        padding: 0.5rem 1rem;
+        background-color: var(--color-secondary);
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
