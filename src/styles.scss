@@ -27,3 +27,48 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--color-fg);
+  color: var(--color-bg);
+}
+
+.btn-primary:hover {
+  background-color: #262626;
+}
+
+.btn-secondary {
+  background-color: var(--color-card);
+  color: var(--color-fg);
+  border-color: var(--color-border);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary);
+}
+
+.btn-small {
+  padding: 0.5rem 0.875rem;
+  font-size: 0.8125rem;
+}
+
+.btn-full {
+  width: 100%;
+}
