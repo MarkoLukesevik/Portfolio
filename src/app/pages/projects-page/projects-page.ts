@@ -10,6 +10,49 @@ import { Project, ProjectCard } from './components/project-card/project-card';
 export class ProjectsPage {
   projects: Project[] = [
     {
+      id: 'procenta',
+      name: 'Procenta',
+      description: `
+        <p>
+        A full-stack web and mobile application designed for the HoReCa industry, focused on connecting cafés, restaurants, and bars into a unified digital network.
+        Procenta enables hospitality employees to receive exclusive discounts and benefits across participating venues, creating a stronger, more connected community.
+        </p>
+
+        <p>
+        The idea behind Procenta is simple — every employee in the HoReCa sector deserves to feel valued.
+        The platform transforms everyday workplaces into a network of mutual support, where businesses and employees benefit from shared value, recognition, and collaboration.
+        </p>
+
+        <p>
+        Through QR code-based validation, users can seamlessly redeem discounts, while businesses gain access to a powerful system for tracking usage, and engaging with the community.
+        </p>
+
+        <p>
+        This project includes both a responsive web application and fully functional mobile apps for iOS and Android, built using modern technologies and designed for real-world scalability and usability.
+        </p>
+
+        <ul>
+          <li>Digital network connecting cafés, restaurants, and bars</li>
+          <li>Exclusive employee discounts and benefits</li>
+          <li>QR code scanning for instant discount validation</li>
+          <li>History and statistics of redeemed discounts</li>
+          <li>Admin panel for business and offer management</li>
+          <li>User profiles with role-based access</li>
+          <li>Secure authentication and authorization</li>
+          <li>Cross-platform mobile apps (iOS & Android)</li>
+        </ul>
+        `,
+      images: [
+        'assets/images/procenta/procenta1.png',
+        'assets/images/procenta/procenta2.png',
+        'assets/images/procenta/procenta3.png',
+      ],
+      skills: ['Angular', 'TypeScript', 'JavaScript', 'SCSS', 'HTML', 'Capacitor', 'Ionic'],
+      liveDemoLink: 'https://procenta.mk/home',
+      appStoreLink: 'https://apps.apple.com/us/app/procenta/id6760362707',
+      playStoreLink: 'https://play.google.com/store/apps/details?id=com.procenta.app&hl=en',
+    },
+    {
       id: 'kanban',
       name: 'Kanban Task Management App',
       description: `
@@ -54,6 +97,7 @@ export class ProjectsPage {
         'TypeScript',
         'Angular CDK (Drag & Drop)',
         'RxJS',
+        'JavaScript',
         'SCSS',
         'HTML',
         '.NET',
@@ -97,7 +141,7 @@ export class ProjectsPage {
         'assets/images/cigar-and-art/cigar-and-art9.png',
         'assets/images/cigar-and-art/cigar-and-art10.png',
       ],
-      skills: [],
+      skills: ['Angular', 'TypeScript', 'JavaScript', 'SCSS', 'HTML'],
       githubLink: 'https://github.com/MarkoLukesevik/Cigar-Art-Fusion',
       liveDemoLink: 'https://cigar-art-fusion.vercel.app/home',
     },
