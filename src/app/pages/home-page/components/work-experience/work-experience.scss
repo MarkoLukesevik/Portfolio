@@ -80,10 +80,11 @@
             margin-bottom: 0.75rem;
           }
 
-          &-description {
+          &-list {
             color: var(--color-muted);
             font-size: 0.875rem;
             line-height: 1.6;
+            list-style-type: none;
           }
         }
       }
