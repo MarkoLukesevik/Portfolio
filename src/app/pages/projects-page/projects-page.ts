@@ -38,14 +38,14 @@ export class ProjectsPage {
         </p>
       `,
       images: [
-        'assets/images/kanban/kanban1.png',
-        'assets/images/kanban/kanban2.png',
-        'assets/images/kanban/kanban3.png',
-        'assets/images/kanban/kanban4.png',
         'assets/images/kanban/kanban5.png',
+        'assets/images/kanban/kanban1.png',
         'assets/images/kanban/kanban6.png',
+        'assets/images/kanban/kanban2.png',
         'assets/images/kanban/kanban7.png',
+        'assets/images/kanban/kanban4.png',
         'assets/images/kanban/kanban8.png',
+        'assets/images/kanban/kanban3.png',
         'assets/images/kanban/kanban9.png',
         'assets/images/kanban/kanban10.png',
       ],
