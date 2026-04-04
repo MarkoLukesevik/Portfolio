@@ -1,0 +1,70 @@
+<header class="header">
+  <div class="header-container header-content">
+    <a class="header-content__logo" (click)="handleLinkClick('home')">Marko</a>
+    <nav class="header-content__navigation">
+      <ul class="header-content__navigation-list">
+        <li
+          class="header-content__navigation-list__item"
+          [class.header-content__navigation-list__item-active]="isRouteActive('home')"
+          (click)="handleLinkClick('home')"
+        >
+          Home
+        </li>
+        <li
+          class="header-content__navigation-list__item"
+          [class.header-content__navigation-list__item-active]="isRouteActive('projects')"
+          (click)="handleLinkClick('projects')"
+        >
+          Projects
+        </li>
+        <li
+          class="header-content__navigation-list__item"
+          [class.header-content__navigation-list__item-active]="isRouteActive('contact')"
+          (click)="handleLinkClick('contact')"
+        >
+          Contact
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      class="header-content__hamburger-button"
+      [class.header-content__hamburger-button__active]="isMobileNavigationActive"
+      aria-label="Toggle menu"
+      (click)="toggleMobileNavigation()"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav
+      class="header-content__mobile-navigation"
+      [class.header-content__mobile-navigation-active]="isMobileNavigationActive"
+    >
+      <ul class="header-content__mobile-navigation-list">
+        <li
+          class="header-content__mobile-navigation-list__item"
+          [class.header-content__mobile-navigation-list__item-active]="isRouteActive('home')"
+          (click)="handleLinkClick('home')"
+        >
+          Home
+        </li>
+        <li
+          class="header-content__mobile-navigation-list__item"
+          [class.header-content__mobile-navigation-list__item-active]="isRouteActive('projects')"
+          (click)="handleLinkClick('projects')"
+        >
+          Projects
+        </li>
+        <li
+          class="header-content__mobile-navigation-list__item"
+          [class.header-content__mobile-navigation-list__item-active]="isRouteActive('contact')"
+          (click)="handleLinkClick('contact')"
+        >
+          Contact
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
