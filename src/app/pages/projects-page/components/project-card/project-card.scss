@@ -114,6 +114,12 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
+
+      width: 100%;
+
+      &__item {
+        flex: 0 1 calc(50% - 0.5rem);
+      }
     }
   }
 }

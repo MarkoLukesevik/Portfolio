@@ -71,13 +71,20 @@
 
     <div class="project-card__content-links">
       @if (project.liveDemoLink) {
-        <a [href]="project.liveDemoLink" target="_blank" class="btn btn-small btn-primary"
+        <a
+          [href]="project.liveDemoLink"
+          target="_blank"
+          class="project-card__content-links__item btn btn-small btn-primary"
           >Live Demo</a
         >
       }
 
       @if (project.githubLink) {
-        <a [href]="project.githubLink" target="_blank" class="btn btn-small btn-secondary">
+        <a
+          [href]="project.githubLink"
+          target="_blank"
+          class="project-card__content-links__item btn btn-small btn-secondary"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -99,7 +106,11 @@
       }
 
       @if (project.appStoreLink) {
-        <a [href]="project.appStoreLink" target="_blank" class="btn btn-small btn-secondary">
+        <a
+          [href]="project.appStoreLink"
+          target="_blank"
+          class="project-card__content-links__item btn btn-small btn-secondary"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -116,7 +127,11 @@
       }
 
       @if (project.playStoreLink) {
-        <a [href]="project.playStoreLink" target="_blank" class="btn btn-small btn-secondary">
+        <a
+          [href]="project.playStoreLink"
+          target="_blank"
+          class="project-card__content-links__item btn btn-small btn-secondary"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
