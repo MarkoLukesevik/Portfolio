@@ -142,7 +142,7 @@ export class ProjectsPage {
         'assets/images/cigar-and-art/cigar-and-art10.png',
       ],
       skills: ['Angular', 'TypeScript', 'JavaScript', 'SCSS', 'HTML'],
-      githubLink: 'https://github.com/MarkoLukesevik/Cigar-Art-Fusion',
+      githubLink: 'https://cigarandartfusion.com',
       liveDemoLink: 'https://cigar-art-fusion.vercel.app/home',
     },
   ];
