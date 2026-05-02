@@ -48,6 +48,7 @@ export class ProjectsPage {
         'assets/images/procenta/procenta3.png',
       ],
       skills: ['Angular', 'TypeScript', 'JavaScript', 'SCSS', 'HTML', 'Capacitor', 'Ionic'],
+      githubLink: 'https://github.com/MarkoLukesevik/Procenta',
       liveDemoLink: 'https://procenta.mk/home',
       appStoreLink: 'https://apps.apple.com/us/app/procenta/id6760362707',
       playStoreLink: 'https://play.google.com/store/apps/details?id=com.procenta.app&hl=en',
